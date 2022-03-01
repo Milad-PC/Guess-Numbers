@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Venner';
+    src: url('Veneer.ttf');
+}
+body{
+    font-family: 'Venner';
+}
+header {
+    display: flex;
+    align-items: center;
+    max-height: 150px;
+    background-color: aqua;
+    border: solid 0px white;
+    border-radius: 15%;
+    margin: 2% 2% 2% 2%;
+}
+
+header .col-8 {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+header label {
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100% !important;
+}
+
+footer label {
+    width: 100%;
+    text-align: center;
+}
+
+#LabelDiv label {
+    width: 100%;
+    text-align: center;
+}
+.Status label{
+    text-align: center;
+    width: 100%;
+}
+#ChooseDiv{
+    width: 100%;
+    margin: 10% 0px 10% 0px;
+}
+#ChooseDiv .col-2 input{
+    width: 150%;
+    border-color: white;
+}
